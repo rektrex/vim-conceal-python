@@ -5,7 +5,7 @@ endif
 setlocal conceallevel=1
 syntax clear pythonOperator
 
-syntax match pyOperator "=\@<!===\@!" conceal cchar=═
+syntax match pyOperator "=\@<!===\@!" conceal cchar=≖
 syntax match pyOperator "!=" conceal cchar=≠
 syntax match pyOperator "<=" conceal cchar=≤
 syntax match pyOperator ">=" conceal cchar=≥
